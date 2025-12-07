@@ -1,0 +1,263 @@
+# Week 1: Normative Framework Analysis
+
+**Filename:** `work/week1_normative_framework.md`
+
+## Documentation Authorship
+
+**Important Note:** The contents in this file were **drafted by Anthropic's Claude AI** based on collaborative conversations about my research project.
+
+**The Language Used:**
+The written articulation, phrasing, sentence structure, and prose style in these planning documents is **Claude's language, not my original writing**. These documents represent AI-generated text based on our iterative discussions.
+
+
+**Objective:** Identify what SHOULD exist in the regulatory framework
+
+**Time Allocated:** 12 hours (Monday-Friday)
+
+---
+
+## Part A: RBI Circular Analysis (6 hours)
+
+### Documents to Review
+
+1. ✓ Master Direction on Know Your Customer (KYC) - Updated 14.08.2025
+2. ✓ Master Circular 2015 - KYC Norms / AML Standards / CFT
+3. ✓ Master Directions on Fraud Risk Management (Updated 15.07.2024)
+4. ✓ Any other circulars cited in Kerala HC judgment WPC 32516/2024
+
+---
+
+### RBI Gap Analysis Matrix
+
+| Topic/Issue | What RBI Says | Citation/Clause | What RBI Does NOT Say | Gap Identified |
+|-------------|---------------|-----------------|----------------------|----------------|
+| **Authority to Freeze** | | | | |
+| When can banks freeze? | | | | |
+| Who within bank can authorize? | | | | |
+| What criteria trigger freeze? | | | | |
+| **Procedural Requirements** | | | | |
+| Notice to account holder? | | | | |
+| Timing of notice? | | | | |
+| Content of notice? | | | | |
+| Right to explanation? | | | | |
+| **Time Limits** | | | | |
+| Maximum freeze duration? | | | | |
+| Extension provisions? | | | | |
+| Automatic de-freeze? | | | | |
+| **Notification Obligations** | | | | |
+| Report to FIU-IND? | | | | |
+| Report to law enforcement? | | | | |
+| Timeframe for reporting? | | | | |
+| **Account Holder Rights** | | | | |
+| Right to be heard? | | | | |
+| Appeal mechanism? | | | | |
+| Compensation for wrongful freeze? | | | | |
+| **Accountability** | | | | |
+| Bank liability for wrongful freeze? | | | | |
+| Bank liability for failure to freeze? | | | | |
+| Oversight mechanism? | | | | |
+
+---
+
+### Key Phrases to Track
+
+As you read RBI circulars, highlight and note these vague/ambiguous phrases:
+
+- [ ] "Appropriate action" (Clause 59, MD-KYC) - What does this mean exactly?
+- [ ] "Enhanced due diligence" - What specific steps?
+- [ ] "Suspicious transactions" - Defined where? How?
+- [ ] "Money mules" - Identification criteria?
+- [ ] "Accessible notice" - What constitutes accessible?
+- [ ] "Reasonable opportunity" - How long is reasonable?
+
+**Record location and context for each:**
+
+**Example:**
+```
+Phrase: "appropriate action"
+Location: Master Direction on KYC, Clause 59
+Context: "Banks shall take appropriate action, including reporting 
+         suspicious transactions to FIU-IND"
+Problem: Does not specify if "appropriate action" includes freezing
+```
+
+---
+
+### Summary of RBI Regulatory Gaps
+
+**After completing the matrix, write 2-3 paragraphs:**
+
+**Gap 1: Authority Ambiguity**
+[Describe what you found - or didn't find - about banks' explicit authority to freeze]
+
+**Gap 2: Procedural Vacuum**
+[Describe absence of clear procedures]
+
+**Gap 3: Temporal Uncertainty**
+[Describe lack of time limits]
+
+**Gap 4: Accountability Void**
+[Describe absence of liability/compensation framework]
+
+**Gap 5: Coordination Confusion**
+[Describe unclear protocols for bank-law enforcement coordination]
+
+---
+
+## Part B: International Best Practices (4 hours)
+
+### UK Financial Conduct Authority (FCA) Analysis
+
+**Resource:** https://www.fca.org.uk
+**Search terms:** "account restrictions", "suspicious activity", "freezing orders"
+
+#### UK Framework Components
+
+| Element | UK FCA Standard | Specific Citation | Notes |
+|---------|----------------|-------------------|-------|
+| **Legal Authority** | | | |
+| Statutory basis for freezing | | | |
+| Conditions required | | | |
+| **Procedure** | | | |
+| Notice requirement | | | |
+| Timing of notice | | | |
+| Information to be provided | | | |
+| **Time Limits** | | | |
+| Initial freeze duration | | | |
+| Extension process | | | |
+| Maximum total duration | | | |
+| **Rights & Remedies** | | | |
+| Account holder notification | | | |
+| Right to challenge | | | |
+| Appeal forum | | | |
+| Compensation provisions | | | |
+| **Coordination** | | | |
+| Reporting to authorities | | | |
+| Information sharing protocol | | | |
+| **Accountability** | | | |
+| Bank liability | | | |
+| Supervisory oversight | | | |
+| Penalties for wrongful action | | | |
+
+---
+
+### Optional: Singapore MAS Standards
+
+If time permits, review Singapore Monetary Authority standards using same template.
+
+---
+
+### Comparative Summary Table
+
+| Issue | India (RBI) | UK (FCA) | Gap Severity (High/Medium/Low) |
+|-------|-------------|----------|-------------------------------|
+| Explicit freezing authority | | | |
+| Notice before freeze | | | |
+| Maximum freeze duration | | | |
+| Appeal mechanism | | | |
+| Compensation for wrongful freeze | | | |
+| Law enforcement coordination | | | |
+
+---
+
+## Part C: Constitutional & Legal Framework (2 hours)
+
+### Indian Constitutional Standards
+
+**Article 300A - Right to Property**
+```
+Key principle: No person shall be deprived of property save by authority of law
+
+Application to account freezing:
+- Is there "authority of law" for bank-initiated freezing?
+- What procedural safeguards does Constitution require?
+```
+
+**Principles of Natural Justice**
+```
+Audi alteram partem (hear the other side):
+- Does account holder get notice?
+- Opportunity to explain?
+
+Nemo judex in causa sua (no one should be judge in own cause):
+- Who decides if freeze is justified?
+- Is there independent review?
+```
+
+**Banking Regulation Act, 1949 - Section 35A**
+```
+Extract relevant provisions:
+- RBI's power to issue directions
+- Binding nature on banks
+- Scope and limitations
+```
+
+**Prevention of Money-Laundering Act, 2002**
+```
+Section 12AA - Enhanced Due Diligence:
+- What does this require?
+- Does it authorize freezing?
+- Relationship with RBI guidelines?
+```
+
+---
+
+## Week 1 Synthesis (30 minutes)
+
+### The Five Biggest Regulatory Gaps
+
+Based on all analysis above, list and explain:
+
+**1. [Gap Name]**
+- What should exist: [Based on international standards + constitutional principles]
+- What actually exists: [Based on RBI circular analysis]
+- Why this matters: [Practical consequence]
+- Evidence: [Which circular, which case exposed this]
+
+**2. [Gap Name]**
+[Repeat structure]
+
+**3. [Gap Name]**
+[Repeat structure]
+
+**4. [Gap Name]**
+[Repeat structure]
+
+**5. [Gap Name]**
+[Repeat structure]
+
+---
+
+## Deliverables Checklist
+
+By end of Week 1, you should have:
+
+- [ ] Completed RBI Gap Analysis Matrix
+- [ ] List of vague phrases in RBI circulars with citations
+- [ ] Summary of RBI regulatory gaps (2-3 paragraphs)
+- [ ] Completed UK FCA Framework Components table
+- [ ] Completed Comparative Summary Table
+- [ ] Constitutional analysis notes
+- [ ] "Five Biggest Regulatory Gaps" synthesis
+
+**Save as:**
+- `work/week1_normative_framework.md` (this file with all sections filled)
+- `data/week1_gap_matrix.csv` (export your matrix)
+- `data/week1_international_comparison.csv` (export your comparison table)
+
+---
+
+## Notes and Observations
+
+[Use this space for any additional thoughts, questions, or interesting findings that don't fit above categories]
+
+---
+
+**Status:** 
+- [ ] In Progress
+- [ ] Completed
+- [ ] Reviewed
+
+**Completion Date:** ___________
+
+**Hours Logged:** ___________
