@@ -1,0 +1,364 @@
+# Week 2: Case Law Data Collection
+
+**Filename:** `work/week2_case_collection.md`
+
+**Objective:** Build comprehensive database of relevant judgments
+
+**Time Allocated:** 18 hours
+
+---
+
+## Search Strategy
+
+### India Kanoon Search Protocol
+
+**Database:** https://indiankanoon.org
+
+**Date Range:** 2020-01-01 to Present (focus on post-UPI implementation)
+
+**Geographic Scope:** All High Courts (with focus on Kerala, Delhi, Bombay, Karnataka, Madras)
+
+---
+
+### Search Queries
+
+Execute each search separately and record results:
+
+#### Search Round 1: Direct Terms
+
+| Query # | Search String | Date | Results Found | Relevant Count | Notes |
+|---------|--------------|------|---------------|----------------|-------|
+| 1 | "account freeze" AND "cyber crime" | | | | |
+| 2 | "account freeze" AND "RBI guidelines" | | | | |
+| 3 | "suspicious transaction" AND bank | | | | |
+| 4 | "money mule" AND account | | | | |
+| 5 | "debit freeze" AND bank | | | | |
+| 6 | "cyber fraud" AND "account freezing" | | | | |
+
+#### Search Round 2: Legal Provisions
+
+| Query # | Search String | Date | Results Found | Relevant Count | Notes |
+|---------|--------------|------|---------------|----------------|-------|
+| 7 | "Section 12AA" AND PMLA AND bank | | | | |
+| 8 | "Banking Regulation Act" AND "Section 35A" AND freeze | | | | |
+| 9 | "Prevention of Money Laundering" AND "account freeze" | | | | |
+| 10 | "KYC" AND "account closure" AND "suspicious" | | | | |
+
+#### Search Round 3: Specific Issues
+
+| Query # | Search String | Date | Results Found | Relevant Count | Notes |
+|---------|--------------|------|---------------|----------------|-------|
+| 11 | "wrongful freezing" AND bank account | | | | |
+| 12 | "Article 300A" AND "bank account" AND freeze | | | | |
+| 13 | "natural justice" AND "account freeze" | | | | |
+| 14 | "FIU-IND" AND "suspicious transaction report" | | | | |
+
+---
+
+### Citation Collection Worksheet
+
+**Target:** 100-150 initial citations
+
+**As you review search results, record:**
+
+| Citation | Court | Date | Judge(s) | Petitioner Type | Appears Relevant | Priority |
+|----------|-------|------|----------|----------------|-----------------|----------|
+| Example: 2024 KHC 1234 | Kerala HC | 2024-11-19 | Abdul Hakhim J. | Individual | Yes | High |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+
+**Petitioner Type codes:**
+- IND = Individual
+- BUS = Business/Company
+- NRI = Non-Resident Indian
+- GOV = Government agency
+- BNK = Bank (rare but possible)
+
+**Priority codes:**
+- HIGH = Definitely relevant, mentions gap explicitly
+- MED = Relevant, about account freezing in cyber crime context
+- LOW = Tangentially relevant, may provide background
+- SKIP = Not relevant after closer look
+
+---
+
+## PDF Download Log
+
+### Systematic Download Checklist
+
+Once you have your citation list, download PDFs systematically.
+
+**Naming Convention:** `[YEAR]_[COURT]_[CASE_TYPE][NUMBER].pdf`
+
+**Example:** `2024_KHC_WPC32516.pdf`
+
+**Court Codes:**
+- KHC = Kerala High Court
+- DHC = Delhi High Court
+- BHC = Bombay High Court
+- KAR = Karnataka High Court
+- MHC = Madras High Court
+- GHC = Gujarat High Court
+- etc.
+
+### Download Status Tracker
+
+| Citation | PDF Filename | Downloaded | File Size | Readable | Notes |
+|----------|-------------|------------|-----------|----------|-------|
+| | | ☐ | | ☐ | |
+| | | ☐ | | ☐ | |
+| | | ☐ | | ☐ | |
+
+---
+
+## Rapid Screening Protocol
+
+**Time per case:** 3-5 minutes maximum
+
+**For each PDF, answer these questions:**
+
+### Screening Checklist Template
+
+**Case:** [Citation]
+
+**Question 1: Is this about bank account freezing?**
+- [ ] Yes - Bank froze/restricted account operations
+- [ ] No - About something else
+- [ ] Unclear - Needs deeper read
+
+**Question 2: Is it related to suspected fraud/cyber crime?**
+- [ ] Yes - Explicitly cyber crime/fraud context
+- [ ] Partially - Financial irregularity but not cyber crime
+- [ ] No - Other reason (KYC, loan default, etc.)
+
+**Question 3: Who initiated the freeze?**
+- [ ] Bank (suo motu) - THIS IS KEY
+- [ ] Police/Law Enforcement requisition
+- [ ] Court order
+- [ ] RBI direction
+- [ ] Unclear
+
+**Question 4: Does court discuss RBI guidelines/regulatory gap?**
+- [ ] Yes - Explicitly mentions absence of guidelines
+- [ ] Mentions guidelines but no gap discussion
+- [ ] No mention of RBI guidelines
+- [ ] Unclear
+
+**Question 5: What was the outcome?**
+- [ ] Freeze upheld
+- [ ] Freeze lifted/quashed
+- [ ] Freeze modified (partial relief)
+- [ ] Matter remanded
+- [ ] Other: ___________
+
+**Question 6: Is petitioner an individual or business?**
+- [ ] Individual
+- [ ] Business/Company
+- [ ] NRI
+- [ ] Other: ___________
+
+**Decision:**
+- [ ] INCLUDE - Definitely relevant (deep read)
+- [ ] MAYBE - Possibly relevant (quick read)
+- [ ] EXCLUDE - Not relevant
+
+---
+
+## Case Categorization Matrix
+
+After screening, group cases into categories:
+
+### Category A: Core Cases (Deep Read Required)
+**Criteria:** Bank-initiated freeze + Cyber crime context + Gap discussion
+
+| Citation | Court | Brief Description | Why Core |
+|----------|-------|-------------------|----------|
+| | | | |
+
+**Target Count:** 15-20 cases
+
+---
+
+### Category B: Supporting Cases (Quick Read)
+**Criteria:** Relevant to one or more aspects but not all
+
+| Citation | Court | Relevant Aspect | Priority |
+|----------|-------|----------------|----------|
+| | | Time limit issue | Medium |
+| | | Procedural fairness | Medium |
+| | | KYC non-compliance (for comparison) | Low |
+
+**Target Count:** 20-30 cases
+
+---
+
+### Category C: Background Cases (Skim/Reference)
+**Criteria:** Provides context but not directly on point
+
+| Citation | Court | Context Provided | Use |
+|----------|-------|------------------|-----|
+| | | General cyber crime trends | Background |
+| | | Banking Ombudsman role | Context |
+
+**Target Count:** 5-10 cases
+
+---
+
+## Database Structure
+
+### Master Case Database Fields
+
+**Create spreadsheet with these columns:**
+
+#### Basic Information
+1. `case_id` (unique number)
+2. `citation` (full citation)
+3. `court` (which High Court)
+4. `date` (YYYY-MM-DD format)
+5. `judge_name(s)`
+6. `pdf_filename`
+
+#### Parties
+7. `petitioner_name`
+8. `petitioner_type` (Individual/Business/NRI/Other)
+9. `respondent_1` (usually the bank)
+10. `respondent_2` (RBI/Police/etc.)
+
+#### Freeze Details
+11. `freeze_initiated_by` (Bank/Police/Court/RBI/Other)
+12. `freeze_date` (if mentioned)
+13. `freeze_duration_days` (calculate from dates if available)
+14. `freeze_amount` (Rs. in lakhs)
+15. `reason_for_freeze` (brief description)
+
+#### Transaction Pattern
+16. `declared_income` (if mentioned)
+17. `transaction_volume` (total credited/debited)
+18. `transaction_period` (number of days/months)
+19. `money_mule_suspected` (Yes/No/Unclear)
+
+#### Legal Issues
+20. `law_enforcement_involved` (Yes/No)
+21. `law_enforcement_requisition` (Yes/No)
+22. `rbi_guidelines_cited` (Yes/No)
+23. `court_mentioned_gap` (Yes/No)
+24. `article_300A_invoked` (Yes/No)
+25. `natural_justice_discussed` (Yes/No)
+
+#### Procedural Aspects
+26. `notice_given_to_customer` (Yes/No/Unclear)
+27. `explanation_sought` (Yes/No/Unclear)
+28. `customer_explained` (Yes/No/NA)
+29. `bank_considered_explanation` (Yes/No/NA)
+
+#### Outcome
+30. `outcome` (Freeze_Upheld/Freeze_Lifted/Modified/Remanded/Other)
+31. `relief_granted` (brief description)
+32. `costs_awarded` (Yes/No/Amount)
+
+#### Analysis Tags
+33. `key_issue_1` (dropdown: Authority/Procedure/Time_Limit/Notice/Coordination/Other)
+34. `key_issue_2`
+35. `key_issue_3`
+36. `court_reasoning` (brief summary)
+37. `distinguishing_facts` (what makes this case unique)
+38. `precedent_value` (High/Medium/Low)
+
+#### Research Notes
+39. `quote_1` (important quote with paragraph number)
+40. `quote_2`
+41. `quote_3`
+42. `researcher_notes` (your observations)
+43. `relevance_score` (1-10)
+
+---
+
+## Week 2 Progress Tracker
+
+### Daily Goals
+
+**Monday (3 hours)**
+- [ ] Complete all 14 search queries
+- [ ] Compile initial citation list (100-150 cases)
+- [ ] Export to spreadsheet
+
+**Tuesday (4 hours)**
+- [ ] Download PDFs for first 50 citations
+- [ ] Begin rapid screening
+- [ ] Complete screening for 20 cases
+
+**Wednesday (4 hours)**
+- [ ] Download remaining PDFs
+- [ ] Continue screening
+- [ ] Complete screening for 40 more cases (total: 60)
+
+**Thursday (4 hours)**
+- [ ] Complete screening for all collected cases
+- [ ] Categorize into A/B/C categories
+- [ ] Identify top 15-20 "core cases"
+
+**Friday (3 hours)**
+- [ ] Set up master database spreadsheet
+- [ ] Enter basic data for all relevant cases
+- [ ] Prepare for Week 3 deep reading
+
+---
+
+## Deliverables Checklist
+
+By end of Week 2, you should have:
+
+- [ ] Complete search log with all 14 queries documented
+- [ ] 100-150 initial citations collected
+- [ ] PDFs downloaded and systematically named
+- [ ] All cases screened using rapid protocol
+- [ ] Cases categorized (A/B/C)
+- [ ] 15-20 core cases identified for deep reading
+- [ ] Master database spreadsheet created with all fields
+- [ ] Basic information entered for all relevant cases
+
+**Save as:**
+- `work/week2_case_collection.md` (this file with all sections filled)
+- `data/case_citations_master.csv` (your complete citation list)
+- `data/case_database.xlsx` or `.csv` (master database)
+- `data/pdfs/` (folder with all downloaded PDFs)
+- `data/search_log.csv` (export of your search queries table)
+
+---
+
+## Quality Control Checks
+
+Before moving to Week 3:
+
+- [ ] All core cases (Category A) have PDFs downloaded
+- [ ] PDF naming is consistent
+- [ ] No duplicate cases in database
+- [ ] All mandatory fields have data for core cases
+- [ ] Can filter database by key variables (court, outcome, etc.)
+
+---
+
+## Notes and Observations
+
+[Record any patterns you notice during screening - these become insights!]
+
+**Example observations to track:**
+- Which courts have most cases?
+- Are individual petitioners more successful than business?
+- What percentage involve NRIs?
+- How many mention the regulatory gap explicitly?
+- What's the typical freeze duration?
+
+---
+
+**Status:** 
+- [ ] In Progress
+- [ ] Completed
+- [ ] Reviewed
+
+**Completion Date:** ___________
+
+**Hours Logged:** ___________
+
+**Cases Collected:** _____ initial / _____ relevant / _____ core
