@@ -1,0 +1,89 @@
+# International References in RBI Guidelines
+
+## Master Direction on KYC:
+- Section X cites: [Country/body]
+- Based on: [Which international standards?]
+- References to: FATF? Basel Committee? Other?
+
+## Fraud Risk Management Direction:
+- [Same analysis]
+```
+
+### Phase 2: Identify What to Compare (Day 4)
+
+**After reading Indian sources, ask:**
+
+1. **What specific problems need solutions?**
+   - Authority gap → Need: Clear authorization framework
+   - Time limit gap → Need: Maximum duration provisions
+   - Notice gap → Need: Procedural requirements
+
+2. **Who handles similar problems well?**
+   - Google Scholar search: "bank account freezing regulation [country]"
+   - Look at RBI's own references
+   - Check: FATF (Financial Action Task Force) recommendations
+   - Check: Basel Committee guidelines
+
+3. **Practical constraints:**
+   - Must be in English (or have English translations)
+   - Must be accessible online
+   - Must be recent (post-2015)
+
+### Phase 3: Strategic Comparative Research (Day 5)
+
+**Don't aim for comprehensive comparison.** Aim for **illustrative comparison**:
+
+**Pick 2-3 jurisdictions maximum:**
+- **One** with comprehensive framework (probably UK or Singapore)
+- **One** culturally/legally similar (maybe Malaysia or Hong Kong)
+- **Maybe one** aspirational (like how India might model itself)
+
+---
+
+## Using NotebookLM for This (Smart Idea!)
+
+**Yes! NotebookLM's deep research is PERFECT for this. Here's how:**
+
+### Stage 1: Let NotebookLM Find Comparators
+
+**Upload to NotebookLM:**
+1. Kerala HC judgment PDF
+2. The 2-3 RBI circulars you've read
+3. Any Indian academic papers on banking regulation (if you find them)
+
+**Ask NotebookLM:**
+```
+"Based on these documents, which countries or international 
+bodies are referenced regarding bank account freezing or 
+suspicious transaction management? List all mentions of 
+foreign regulatory frameworks or international standards."
+```
+
+**Then ask:**
+```
+"What specific regulatory gaps or problems do these Indian 
+documents identify? For each gap, what kind of international 
+model or solution might address it?"
+```
+
+### Stage 2: Use NotebookLM's Deep Research
+
+**Once you know which countries to explore:**
+
+**Create a new NotebookLM notebook: "International Comparison"**
+
+**Use Deep Research mode with queries like:**
+```
+"What are the UK Financial Conduct Authority's specific 
+requirements for banks to freeze accounts due to suspected 
+fraud? Include notice requirements, time limits, and 
+accountability mechanisms."
+```
+```
+"Compare Singapore MAS and UK FCA regulations on suspicious 
+account freezing. What are the key procedural safeguards?"
+```
+```
+"What are international best practices (FATF or Basel 
+Committee) regarding bank authority to freeze accounts 
+without court orders?"
