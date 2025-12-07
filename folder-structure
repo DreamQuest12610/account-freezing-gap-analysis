@@ -1,0 +1,705 @@
+# Complete Project Folder Structure
+
+**Repository Name:** `account-freezing-gap-analysis`
+
+---
+
+## Root Directory Structure
+
+```
+account-freezing-gap-analysis/
+│
+├── README.md                          # Main project overview
+├── ACKNOWLEDGMENTS.md                 # AI assistance disclosure
+├── LICENSE                            # Your choice of license
+│
+├── planning/                          # Research design documentation
+│   ├── research_design_process.md    # Complete methodology (already created)
+│   └── weekly_progress_log.md        # Track actual progress vs. plan
+│
+├── work/                              # Your active working documents
+│   ├── week1_normative_framework.md  # Week 1 template (created above)
+│   ├── week2_case_collection.md      # Week 2 template (created above)
+│   ├── week3_gap_analysis.md         # Week 3 template (created above)
+│   ├── week4_proposed_framework.md   # Week 4 template (created above)
+│   └── week5_paper_compilation.md    # Week 5 template (to be created)
+│
+├── data/                              # All data files
+│   ├── rbi_circulars/                # Copies of RBI guidelines
+│   │   ├── master_direction_kyc_2025.pdf
+│   │   ├── master_circular_2015.pdf
+│   │   └── fraud_risk_mgmt_2024.pdf
+│   │
+│   ├── pdfs/                          # Downloaded case PDFs
+│   │   ├── 2024_KHC_WPC32516.pdf    # Organized by year and court
+│   │   ├── 2024_DHC_WPC1234.pdf
+│   │   └── [other cases]
+│   │
+│   ├── international/                 # International regulations
+│   │   ├── uk_fca_guidelines.pdf
+│   │   └── singapore_mas_standards.pdf
+│   │
+│   ├── case_citations_master.csv     # All citations found
+│   ├── case_database.csv              # Complete case database
+│   ├── search_log.csv                 # Record of India Kanoon searches
+│   ├── week1_gap_matrix.csv          # RBI gap analysis
+│   └── week1_international_comparison.csv
+│
+├── analysis/                          # Analysis outputs
+│   ├── case_summaries/               # Individual case analyses
+│   │   ├── 2024_KHC_WPC32516_summary.md
+│   │   └── [one file per deep-read case]
+│   │
+│   ├── statistical_summary.xlsx      # All quantitative analysis
+│   ├── gap_map_visual.png           # Your 5-dimension gap diagram
+│   ├── gap_map_visual.pptx          # Editable version
+│   ├── comparison_tables.xlsx        # Various comparison matrices
+│   ├── framework_rationale.md        # Justification for proposed provisions
+│   ├── stakeholder_impact.md         # Impact analysis
+│   └── charts/                       # Visualizations
+│       ├── temporal_trends.png
+│       ├── court_distribution.png
+│       ├── outcome_analysis.png
+│       └── freeze_duration_histogram.png
+│
+├── docs/                              # Final outputs and papers
+│   ├── research_paper_draft_v1.md   # Markdown draft
+│   ├── research_paper_final.pdf      # Final formatted paper
+│   ├── proposed_rbi_master_direction.pdf  # Standalone policy document
+│   ├── methodology.md                 # Detailed methodology chapter
+│   ├── executive_summary.pdf          # 2-page summary for quick reading
+│   └── presentation_slides.pptx       # If creating presentation
+│
+├── scripts/                           # Python/automation code
+│   ├── india_kanoon_downloader.py    # PDF download script
+│   ├── data_cleaner.py               # Data processing
+│   ├── statistical_analysis.py       # Generate statistics
+│   ├── requirements.txt              # Python dependencies
+│   └── README.md                     # How to run scripts
+│
+└── resources/                         # Reference materials
+    ├── kerala_hc_judgment_wpc32516.pdf  # Your uploaded judgment
+    ├── relevant_statutes.md          # Compiled statutory provisions
+    ├── bibliography.md               # All sources cited
+    └── useful_links.md               # Websites, databases used
+```
+
+---
+
+## File Naming Conventions
+
+### Case PDFs
+**Format:** `YYYY_COURT_CASETYPE_NUMBER.pdf`
+
+**Examples:**
+- `2024_KHC_WPC32516.pdf` (Kerala High Court, WP(C) No. 32516/2024)
+- `2023_DHC_WPC15678.pdf` (Delhi High Court)
+- `2024_BHC_CRL5432.pdf` (Bombay High Court, Criminal)
+
+### Case Summary Files
+**Format:** `YYYY_COURT_CASETYPE_NUMBER_summary.md`
+
+**Example:** `2024_KHC_WPC32516_summary.md`
+
+### Data Files
+- Use lowercase with underscores: `case_database.csv`
+- Include version if iterating: `case_database_v2.csv`
+- Date-stamp if time-sensitive: `search_log_2024-12-01.csv`
+
+### Working Documents
+- Use descriptive names: `week1_normative_framework.md`
+- Not: `document1.md` or `temp.md`
+
+---
+
+## Folder-by-Folder Details
+
+### `/planning/`
+
+**Contents:** Research design and methodology
+
+**Files:**
+1. `research_design_process.md` - Your complete methodology (already created)
+2. `weekly_progress_log.md` - Track what you actually do vs. plan
+
+**Weekly Progress Log Template:**
+```markdown
+# Weekly Progress Log
+
+## Week 1 (Dates: ___ to ___)
+**Planned:** 12 hours
+**Actual:** ___ hours
+
+**Completed:**
+- [ ] RBI circular analysis
+- [ ] UK FCA review
+- [ ] Gap matrix
+- [ ] Synthesis
+
+**Challenges faced:**
+[What was harder than expected?]
+
+**Adjustments made:**
+[How did you adapt?]
+
+**Key insights:**
+[What did you learn this week?]
+
+---
+
+[Repeat for each week]
+```
+
+---
+
+### `/work/`
+
+**Contents:** Your active working templates (one per week)
+
+**Purpose:** These are your "messy" workspace files where you actually do the research
+
+**After completing each week:** Review and clean up, then save polished versions in `/docs/` or `/analysis/`
+
+---
+
+### `/data/`
+
+**Contents:** All raw data
+
+#### `/data/rbi_circulars/`
+- Save PDFs of every RBI circular you analyze
+- Create a `circulars_index.md` listing all with brief description
+
+#### `/data/pdfs/`
+- All case PDFs systematically named
+- Consider sub-folders by court if you get 100+ cases:
+  ```
+  pdfs/
+    ├── kerala_hc/
+    ├── delhi_hc/
+    ├── bombay_hc/
+    └── others/
+  ```
+
+#### `/data/international/`
+- UK, Singapore, or other country regulations
+- Create `international_sources.md` with proper citations
+
+#### CSV/Excel Files
+- `case_citations_master.csv` - Simple list of all cases found
+  - Columns: citation, court, date, url, priority
+  
+- `case_database.csv` - Your detailed database
+  - All 43 columns from Week 2 template
+  - This is your core data file
+  
+- `search_log.csv` - Record of searches
+  - Query, date, results_count, relevant_count
+  
+- `week1_gap_matrix.csv` - Export from Week 1
+  - Topic, RBI_says, RBI_doesnt_say, gap
+
+---
+
+### `/analysis/`
+
+**Contents:** All analysis outputs
+
+#### `/analysis/case_summaries/`
+- One markdown file per deep-read case
+- Use the template from Week 3
+- These become source material for your paper
+
+#### `/analysis/statistical_summary.xlsx`
+**Should contain these sheets:**
+1. Geographic_Distribution
+2. Temporal_Trends
+3. Petitioner_Demographics
+4. LE_Involvement
+5. Freeze_Durations
+6. Gap_Frequency
+7. Outcomes_Analysis
+8. Transaction_Patterns
+
+Each sheet = one table from Week 3 template
+
+#### `/analysis/charts/`
+Create visualizations:
+- Bar chart: Cases by High Court
+- Line chart: Cases over time (2020-2025)
+- Pie chart: Outcome distribution
+- Histogram: Freeze duration distribution
+- Scatter: Income vs. Transaction volume (shows mismatch)
+
+**Tools:** Excel, Google Sheets, or Python (matplotlib/seaborn)
+
+---
+
+### `/docs/`
+
+**Contents:** Final polished outputs
+
+#### Research Paper Structure
+
+**`research_paper_final.pdf` should contain:**
+
+1. **Title Page**
+   - Title: "Gap Analysis: Proactive Account Freezing by Banks in Cyber Crime Cases"
+   - Subtitle: "From Regulatory Ambiguity to Judicial Intervention"
+   - Your name
+   - Date
+   - Word count
+
+2. **Abstract** (250 words)
+   - Research question
+   - Methodology
+   - Key findings
+   - Recommendations
+
+3. **Table of Contents**
+
+4. **Introduction** (2-3 pages)
+   - Background: Rise of cyber crime
+   - Problem statement: Regulatory gap
+   - Kerala HC judgment as catalyst
+   - Research questions
+   - Significance of study
+   - Structure of paper
+
+5. **Chapter 1: Literature Review and Normative Framework** (6-8 pages)
+   - Existing RBI guidelines (analysis)
+   - International best practices (UK, Singapore)
+   - Constitutional framework (Art. 300A, natural justice)
+   - Gap identification (the five dimensions)
+
+6. **Chapter 2: Methodology** (3-4 pages)
+   - Research design: Gap analysis framework
+   - Data collection: India Kanoon search strategy
+   - Case selection criteria
+   - Analysis methods
+   - Limitations
+   - [This is where you shine - show systematic approach]
+
+7. **Chapter 3: Judicial Response to the Gap** (8-10 pages)
+   - Overview of case law (quantitative)
+   - Deep analysis of key judgments
+   - Patterns in judicial reasoning
+   - Courts as gap-fillers
+   - Kerala HC judgment in context
+
+8. **Chapter 4: Gap Mapping and Impact Analysis** (6-8 pages)
+   - Five-dimensional gap (with evidence)
+   - Quantified impacts (your statistics)
+   - Stakeholder analysis
+   - Systemic consequences
+
+9. **Chapter 5: Proposed Regulatory Framework** (10-12 pages)
+   - Design principles
+   - Draft RBI Master Direction (key provisions)
+   - Rationale for each provision
+   - Comparison with current situation
+   - Implementation considerations
+
+10. **Conclusion** (2-3 pages)
+    - Summary of findings
+    - Policy recommendations
+    - RBI must act (Kerala HC direction)
+    - Future research
+
+11. **References/Bibliography**
+
+12. **Appendices**
+    - Appendix A: Complete list of cases analyzed
+    - Appendix B: Statistical tables
+    - Appendix C: Full proposed Master Direction text
+    - Appendix D: Sample templates (notice, assessment form)
+
+**Total: 40-50 pages**
+
+---
+
+#### Other Documents in `/docs/`
+
+**`proposed_rbi_master_direction.pdf`**
+- Standalone policy document
+- Formatted as official RBI circular
+- Can be shared separately
+- 15-20 pages
+
+**`executive_summary.pdf`**
+- 2-page overview
+- For recruiters who want quick look
+- Problem → Analysis → Solution format
+
+**`methodology.md`**
+- Detailed methodology chapter
+- Can be separate for those interested in research design
+- Reference for academic discussions
+
+---
+
+### `/scripts/`
+
+**Contents:** Python automation code (if you use it)
+
+#### `india_kanoon_downloader.py`
+
+Basic structure:
+```python
+"""
+India Kanoon PDF Downloader
+Downloads case PDFs based on citation list
+"""
+
+import requests
+import pandas as pd
+import time
+import os
+
+def download_pdf(citation, save_path):
+    """
+    Download PDF for a given citation
+    """
+    # [Your code here - I'll provide full version separately]
+    pass
+
+def main():
+    # Read CSV with citations
+    df = pd.read_csv('../data/case_citations_master.csv')
+    
+    # For each citation, download
+    for index, row in df.iterrows():
+        citation = row['citation']
+        # Download logic
+        time.sleep(2)  # Be polite to server
+        
+if __name__ == "__main__":
+    main()
+```
+
+#### `requirements.txt`
+```
+pandas==2.0.0
+requests==2.31.0
+beautifulsoup4==4.12.0
+```
+
+#### `scripts/README.md`
+Explain:
+- What each script does
+- How to run it
+- Dependencies needed
+- Any configuration required
+
+---
+
+### `/resources/`
+
+**Contents:** Reference materials
+
+#### `kerala_hc_judgment_wpc32516.pdf`
+- Your uploaded judgment (keep copy here)
+
+#### `relevant_statutes.md`
+```markdown
+# Relevant Statutory Provisions
+
+## Banking Regulation Act, 1949
+
+### Section 35A - Power of RBI to Give Directions
+[Full text of section]
+
+**Relevance:** Authority for RBI to issue guidelines
+
+---
+
+## Prevention of Money-Laundering Act, 2002
+
+### Section 12AA - Enhanced Due Diligence
+[Full text]
+
+**Relevance:** Banks' obligations regarding suspicious transactions
+
+---
+
+[Continue for all relevant provisions]
+```
+
+#### `bibliography.md`
+All sources in consistent citation format:
+
+```markdown
+# Bibliography
+
+## Cases Cited
+
+Kerala High Court:
+1. Abdul Azeez v. Union of India, WP(C) No. 32516/2024 (Kerala HC, 19.11.2025)
+2. [Other cases]
+
+Gujarat High Court:
+1. State Bank of India v. Ashvin Chaturbhai Parmar, Crl. Appeal No. 725/2009
+
+---
+
+## Statutes
+
+1. Banking Regulation Act, 1949
+2. Prevention of Money-Laundering Act, 2002
+
+---
+
+## RBI Circulars
+
+1. Master Direction on Know Your Customer (KYC), dated 25.02.2016, updated 14.08.2025
+2. [Others]
+
+---
+
+## International Regulations
+
+1. UK Financial Conduct Authority, "Guidance on Account Restrictions," [URL], accessed [date]
+2. [Others]
+
+---
+
+## Secondary Sources
+
+[Academic papers, if any]
+```
+
+#### `useful_links.md`
+```markdown
+# Useful Links
+
+## Databases
+- India Kanoon: https://indiankanoon.org
+- RBI Website: https://rbi.org.in
+
+## Tools Used
+- Zotero: [Your library link]
+- GitHub: [This repository]
+
+## Reference
+- Banking Ombudsman: [URL]
+- FIU-IND: [URL]
+```
+
+---
+
+## Git Ignore File
+
+Create `.gitignore` in root:
+
+```
+# Large files
+*.pdf
+data/pdfs/
+
+# But keep key documents
+!resources/kerala_hc_judgment_wpc32516.pdf
+!docs/research_paper_final.pdf
+!docs/proposed_rbi_master_direction.pdf
+
+# Temporary files
+*.tmp
+~$*.xlsx
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+```
+
+**Rationale:** 
+- Don't upload 100+ case PDFs to GitHub (too large)
+- Do upload your key deliverables
+- Keep repository clean
+
+---
+
+## README.md Template
+
+Your root `README.md`:
+
+```markdown
+# Gap Analysis: Account Freezing in Cyber Crime Cases
+
+A systematic legal research project examining regulatory voids in India's framework for proactive account freezing by banks.
+
+## 📋 Project Overview
+
+This research analyzes the gap between existing RBI guidelines and actual requirements for banks to freeze accounts in suspected cyber crime cases. Catalyzed by Kerala High Court's landmark judgment in WPC 32516/2024, the study proposes a comprehensive regulatory framework.
+
+## 🎯 Research Questions
+
+1. What gaps exist in RBI's guidelines for suspicious account management?
+2. How have courts responded to these regulatory voids?
+3. What framework should RBI adopt to balance crime prevention and individual rights?
+
+## 📊 Methodology
+
+- **Approach:** Five-dimensional gap analysis
+- **Data:** 50+ High Court judgments (2020-2025)
+- **Analysis:** Mixed doctrinal and quantitative methods
+- **Deliverable:** Proposed RBI Master Direction
+
+For detailed methodology, see [Research Design Process](planning/research_design_process.md)
+
+## 🔍 Key Findings
+
+- **X%** of cases involved freezes without law enforcement requisition
+- Average freeze duration: **X days** (range: Y-Z days)
+- **X%** of cases explicitly noted regulatory gap
+- Kerala HC's 3-month rule addresses temporal gap but other dimensions remain
+
+## 📁 Repository Structure
+
+```
+├── planning/          # Research design and methodology
+├── work/              # Weekly working documents
+├── data/              # Case database and raw data
+├── analysis/          # Statistical analysis and visualizations
+├── docs/              # Final paper and outputs
+├── scripts/           # Automation code (Python)
+└── resources/         # Reference materials
+```
+
+## 📄 Key Documents
+
+- **[Research Paper](docs/research_paper_final.pdf)** - Complete analysis (40 pages)
+- **[Proposed Framework](docs/proposed_rbi_master_direction.pdf)** - Draft RBI Master Direction
+- **[Executive Summary](docs/executive_summary.pdf)** - 2-page overview
+- **[Methodology](docs/methodology.md)** - Detailed research process
+
+## 🛠️ Tools & Technologies
+
+- **Research:** India Kanoon, Zotero, systematic literature review
+- **Analysis:** Python (pandas), Excel, statistical methods
+- **Documentation:** Markdown, LaTeX/Word, GitHub
+- **Visualization:** Excel charts, PowerPoint diagrams
+
+## 💡 Skills Demonstrated
+
+✓ Systematic legal research methodology  
+✓ Gap analysis framework application  
+✓ Database design and management  
+✓ Quantitative analysis of jurisprudence  
+✓ Policy drafting and regulatory design  
+✓ Stakeholder analysis  
+✓ Technical documentation  
+✓ Version control and project management
+
+## 📈 Key Statistics
+
+[Add your headline numbers once you have them]
+
+- Cases analyzed: **X**
+- Courts covered: **X High Courts**
+- Time period: **2020-2025**
+- Data points collected: **X**
+
+## 🎓 Context
+
+This project was developed as a demonstration of information management and legal research capabilities, combining:
+- Traditional doctrinal legal analysis
+- Systematic data collection and organization
+- Policy-oriented problem-solving
+- Professional documentation practices
+
+## 📝 Acknowledgments
+
+For transparency regarding use of AI tools and research assistance, see [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md)
+
+**Last Updated:** [Date]  
+**Status:** [In Progress / Completed]
+```
+
+---
+
+## Version Control Best Practices
+
+### Commit Message Format
+
+```
+[WEEK X] Brief description
+
+- Specific change 1
+- Specific change 2
+- Specific change 3
+```
+
+**Examples:**
+```
+[WEEK 1] Complete RBI circular analysis
+
+- Analyzed all RBI guidelines
+- Created gap matrix
+- Reviewed UK FCA standards
+- Drafted synthesis
+
+---
+
+[WEEK 2] Case collection complete
+
+- Searched India Kanoon (14 queries)
+- Downloaded 87 case PDFs
+- Completed rapid screening
+- Identified 47 relevant cases
+
+---
+
+[DATA] Update case database
+
+- Added 15 new cases
+- Corrected freeze duration calculations
+- Enhanced tagging system
+```
+
+### When to Commit
+
+- End of each work session
+- After completing each week
+- When reaching a milestone
+- Before making major changes
+
+### Branch Strategy
+
+**For this project, simple approach:**
+- `main` branch = stable, complete work
+- `working` branch = daily work in progress
+- Merge to main at end of each week
+
+---
+
+## Backup Strategy
+
+**Local backups:**
+- Weekly: Zip entire folder, store separately
+- Cloud: Google Drive/Dropbox sync
+- GitHub: Automatic version history
+
+**Critical files to backup immediately:**
+- Your case database (CSV/Excel)
+- All working documents (markdown files)
+- Any code/scripts
+
+---
+
+## File Size Management
+
+**If repository gets too large:**
+
+1. **Don't commit large PDFs:**
+   - Add to `.gitignore`
+   - Store locally or on cloud
+   - Include a README in `/data/pdfs/` explaining where to get them
+
+2. **Compress images:**
+   - Charts as PNG (not uncompressed)
+   - Diagrams as SVG when possible
+
+3. **Use Git LFS for key PDFs:**
+   - Only for essential documents you want versioned
+
