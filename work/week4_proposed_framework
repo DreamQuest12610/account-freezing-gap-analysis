@@ -1,0 +1,866 @@
+# Week 4: Proposed Framework Design
+
+**Filename:** `work/week4_proposed_framework.md`
+
+**Objective:** Design evidence-based regulatory solution
+
+**Time Allocated:** 18 hours
+
+---
+
+## Design Principles
+
+Before drafting, establish your guiding principles:
+
+### Principle 1: Balance
+Framework must balance:
+- Crime prevention ↔ Individual rights
+- Bank autonomy ↔ Accountability
+- Speed (urgent freezing) ↔ Due process
+
+### Principle 2: Clarity
+Replace vague phrases with specific criteria, timelines, and procedures
+
+### Principle 3: Enforceability
+Include accountability mechanisms and oversight
+
+### Principle 4: Coordination
+Enable effective bank-law enforcement cooperation
+
+### Principle 5: Flexibility
+Allow for urgent action while providing safeguards
+
+---
+
+## Evidence Base for Each Provision
+
+As you draft each section, reference:
+- ✓ Gap identified in Week 3
+- ✓ International best practice from Week 1
+- ✓ Constitutional requirement
+- ✓ Kerala HC guideline (where applicable)
+- ✓ Case evidence showing why provision needed
+
+---
+
+# PROPOSED RBI MASTER DIRECTION
+## Suspicious Account Management and Temporary Freezing
+
+---
+
+## PREAMBLE
+
+**Authority:** 
+- Banking Regulation Act, 1949 - Section 35A
+- Prevention of Money-Laundering Act, 2002 - Section 12AA
+- In exercise of powers conferred by...
+
+**Objective:**
+This Master Direction provides a comprehensive framework for banks to:
+1. Identify and respond to suspicious account operations
+2. Balance crime prevention with account holder rights
+3. Coordinate effectively with law enforcement agencies
+4. Ensure procedural fairness and accountability
+
+**Applicability:**
+All Scheduled Commercial Banks, Regional Rural Banks, and Cooperative Banks
+
+**Effective Date:** [To be determined]
+
+---
+
+## SECTION 1: DEFINITIONS
+
+### 1.1 Key Terms
+
+**"Suspicious Account Operations"** means:
+
+[Draft your definition based on:]
+- What patterns emerged in your cases?
+- What did Kerala HC consider suspicious?
+- What criteria do UK/Singapore use?
+
+**Your draft:**
+```
+An account shall be considered to have suspicious operations when:
+
+(a) Transaction volume significantly exceeds declared income/business profile
+    [Define "significantly" - 10x? 20x?]
+
+(b) High-value transactions with no apparent economic purpose
+    [Define "high-value" - Rs. 10 lakhs? 50 lakhs?]
+
+(c) Rapid movement of funds (in and out within short period)
+    [Define "rapid" and "short period" - 48 hours? 7 days?]
+
+(d) Pattern consistent with money mule operations, including:
+    - [List specific indicators from your case analysis]
+
+(e) [Add other criteria based on your research]
+```
+
+**Rationale for this definition:** [Reference: Cases showing these patterns, international standards]
+
+---
+
+**"Temporary Freeze"** means:
+
+```
+A restriction on debit operations in an account, while allowing:
+- Continued credits to the account
+- Account holder access for viewing
+- [Specify exactly what is and isn't allowed]
+```
+
+**Distinguish from:**
+- Permanent account closure
+- Full freeze (no credits or debits)
+- KYC non-compliance freeze
+
+---
+
+**"High-Risk Account Pattern"** means:
+
+[Define specific red flags that warrant immediate attention]
+
+```
+(a) New account (< 6 months old) with sudden high-value transactions
+(b) Declared income < Rs. 5 lakhs but transactions > Rs. 50 lakhs
+(c) [Add more based on your case analysis]
+```
+
+---
+
+**"Authorized Official"** means:
+
+[Who within bank can order freeze?]
+
+```
+For accounts with balance/transaction value:
+- Up to Rs. 10 lakhs: Branch Manager
+- Rs. 10-50 lakhs: Regional Manager
+- Above Rs. 50 lakhs: Zonal Head or above
+```
+
+**Rationale:** [Proportionality, prevents arbitrary low-level freezing]
+
+---
+
+### 1.2 Other Relevant Definitions
+
+- **"Account Holder"**: [Define]
+- **"Competent Authority"**: [Which law enforcement agencies]
+- **"Financial Intelligence Unit (FIU-IND)"**: [Reference]
+- **"Cyber Crime Authority"**: [Define jurisdiction-wise]
+
+---
+
+## SECTION 2: AUTHORITY TO FREEZE
+
+### 2.1 Bank's Authority
+
+**Provision:**
+
+```
+2.1.1 A bank MAY temporarily freeze account operations when it has 
+      reasonable grounds to believe that the account is being used for:
+      
+      (a) Proceeds of cyber fraud or financial crime
+      (b) Money laundering
+      (c) Terrorist financing
+      (d) Other offences under [specify relevant acts]
+
+2.1.2 "Reasonable grounds" shall include:
+      
+      (a) Transaction pattern meets definition of "Suspicious Account Operations"
+      (b) Receipt of complaint from alleged victim
+      (c) Internal fraud detection system alert
+      (d) [Add other triggers based on your research]
+
+2.1.3 The freeze may be ordered WITHOUT prior notice to the account holder 
+      only when:
+      
+      (a) Prior notice would defeat the purpose (risk of fund withdrawal)
+      (b) Pattern indicates ongoing fraudulent activity
+      (c) [Other urgent circumstances]
+```
+
+**Evidence Base:**
+- Gap identified: [Week 3 - Authority dimension]
+- Case evidence: [List 2-3 cases where authority was questioned]
+- Kerala HC position: [Paragraph reference allowing freeze without notice]
+- International standard: [UK FCA allows this when...]
+
+**Comparison with current situation:**
+| Aspect | Current (Vague) | Proposed (Clear) | Improvement |
+|--------|----------------|------------------|-------------|
+| Authority source | "Appropriate action" | Explicit authorization with conditions | [Explain] |
+| Who can freeze | Unclear | Defined by transaction value | [Explain] |
+| When to freeze | Subjective | Specific criteria | [Explain] |
+
+---
+
+### 2.2 Limitations on Authority
+
+**Provision:**
+
+```
+2.2.1 Bank shall NOT freeze accounts in following circumstances:
+      
+      (a) Solely on basis of single unusual transaction without pattern
+      (b) For routine KYC non-compliance (separate process applies)
+      (c) [Other exclusions based on your case analysis]
+
+2.2.2 Freeze shall be ordered only after:
+      
+      (a) Review by Authorized Official (as defined in 1.1)
+      (b) Documentation of specific suspicious indicators
+      (c) Internal approval process completed
+```
+
+**Rationale:** [Prevents arbitrary freezing, based on cases showing abuse]
+
+---
+
+## SECTION 3: PROCEDURAL REQUIREMENTS
+
+### 3.1 Pre-Freeze Assessment
+
+**Provision:**
+
+```
+3.1.1 Before ordering freeze, Authorized Official shall:
+      
+      (a) Review transaction history for preceding [30/60/90] days
+      (b) Compare with KYC details and declared profile
+      (c) Check for customer explanation already on record
+      (d) Document findings in prescribed format (Annexure A)
+
+3.1.2 Assessment shall be completed within [24/48] hours of suspicion arising
+```
+
+**Evidence Base:**
+- Gap: [Cases where no assessment done, arbitrary freezing]
+- This addresses: [Stakeholder impact - arbitrary action]
+
+---
+
+### 3.2 Notice to Account Holder
+
+**Provision:**
+
+```
+3.2.1 Immediately upon ordering freeze (within same working day), bank shall:
+      
+      (a) Send SMS notification to registered mobile number
+      (b) Send email to registered email address
+      (c) Dispatch physical notice by Registered Post
+      (d) Update account statement with freeze notice
+
+3.2.2 Notice shall contain:
+      
+      (a) Fact of freeze and effective date
+      (b) Reasons for suspicion (specific indicators)
+      (c) Available balance/amount frozen
+      (d) Right to submit explanation
+      (e) Timeline for explanation (7 days from notice)
+      (f) Consequences of non-response
+      (g) Grievance redressal mechanism
+      (h) Contact details of designated official
+
+3.2.3 Notice format: [Annexure B - create template]
+```
+
+**Evidence Base:**
+- Kerala HC requirement: [Paragraph 27.2 - notice same day]
+- Case evidence: [Cases where no notice led to hardship]
+- Natural justice: [Audi alteram partem principle]
+- International: [UK FCA notice requirements]
+
+**Comparison:**
+| Element | Current | Proposed | Gap Filled |
+|---------|---------|----------|------------|
+| Notice timing | Unclear/delayed | Same day | [Explain] |
+| Notice content | Minimal | Detailed with rights | [Explain] |
+| Notice method | One method | Multiple modes | [Explain] |
+
+---
+
+### 3.3 Account Holder's Right to Explanation
+
+**Provision:**
+
+```
+3.3.1 Account holder may submit explanation within 7 days of notice, including:
+      
+      (a) Source of funds documentation
+      (b) Business records/invoices
+      (c) Tax returns/income proof
+      (d) Any other relevant evidence
+
+3.3.2 Bank shall acknowledge receipt within 2 working days
+
+3.3.3 Bank shall consider explanation and decide within 7 working days of receipt
+
+3.3.4 Decision shall be communicated in writing with reasons
+```
+
+**Evidence Base:**
+- Kerala HC: [Paragraph 27.4 - one week for explanation]
+- Cases showing: [Explanations submitted but not considered]
+- This fixes: [Accountability gap - banks must respond]
+
+---
+
+### 3.4 Bank's Consideration Process
+
+**Provision:**
+
+```
+3.4.1 Explanation shall be reviewed by:
+      
+      (a) Official one level senior to freezing authority
+      (b) Independent review committee if amount > Rs. [50 lakhs]
+
+3.4.2 Bank shall lift freeze if:
+      
+      (a) Account holder provides satisfactory evidence of legitimate source
+      (b) Transaction pattern can be reasonably explained
+      (c) No indicators of money mule/fraud remain
+
+3.4.3 Bank may continue freeze if:
+      
+      (a) Explanation insufficient/contradictory
+      (b) Documentation inadequate
+      (c) Pattern still indicates fraudulent activity
+
+3.4.4 Decision and rationale shall be documented (Annexure C)
+```
+
+**Rationale:** [Ensures meaningful consideration, not rubber-stamp rejection]
+
+---
+
+## SECTION 4: TIME LIMITS
+
+### 4.1 Maximum Freeze Duration
+
+**Provision:**
+
+```
+4.1.1 Initial temporary freeze: Maximum 90 days from date of freeze order
+
+4.1.2 Freeze may continue beyond 90 days ONLY if:
+      
+      (a) Bank has received written requisition from law enforcement agency
+      (b) Court order directs continued freezing
+      (c) Investigation is ongoing (documented by law enforcement)
+
+4.1.3 Even with law enforcement involvement, total freeze duration 
+      shall not exceed:
+      
+      (a) 180 days without charge sheet/formal proceedings
+      (b) [As per court order] if formal proceedings initiated
+
+4.1.4 Freeze beyond prescribed limits shall be deemed unauthorized
+```
+
+**Evidence Base:**
+- Kerala HC: [3-month rule - Paragraph 27.5]
+- Your data: [Average freeze duration, cases > 1 year]
+- International: [UK/Singapore time limits]
+- Constitutional: [Art. 300A - property deprivation requires law, can't be indefinite]
+
+**Impact of this provision:**
+- Prevents: [Cases like yours - 1+ year freezes]
+- Forces: [Banks and police to act within timeframe]
+- Protects: [Account holders from indefinite deprivation]
+
+**Comparison:**
+| Scenario | Current (No Limit) | Proposed (90 days) | Benefit |
+|----------|-------------------|-------------------|---------|
+| No LE action | Indefinite freeze | Auto de-freeze at 90 days | [Explain] |
+| LE involved | Still indefinite | 180 day cap | [Explain] |
+| Your case data | Average: ___ days | Would be: Max 90-180 | [Calculate relief] |
+
+---
+
+### 4.2 Automatic De-Freeze
+
+**Provision:**
+
+```
+4.2.1 If no law enforcement requisition received within 90 days, bank shall:
+      
+      (a) Automatically lift freeze on 91st day
+      (b) Restore full account operations
+      (c) Notify account holder immediately
+
+4.2.2 Bank may subsequently:
+      
+      (a) Continue monitoring the account
+      (b) Require enhanced KYC documentation
+      (c) Exercise right to close account (separate process with notice)
+
+4.2.3 Bank shall NOT re-freeze the same account for same transactions 
+      unless:
+      
+      (a) New suspicious activity occurs, OR
+      (b) Law enforcement requests freeze
+```
+
+**Rationale:** [Prevents repeated arbitrary freezing, but allows monitoring]
+
+---
+
+## SECTION 5: NOTIFICATION AND COORDINATION
+
+### 5.1 Mandatory Reporting
+
+**Provision:**
+
+```
+5.1.1 Within 24 hours of ordering freeze, bank shall report to:
+      
+      (a) Financial Intelligence Unit - India (FIU-IND) via STR
+      (b) Jurisdictional Cyber Crime Police Station
+      (c) National Cyber Crime Reporting Portal
+      (d) [State-specific cyber crime authority if applicable]
+
+5.1.2 Report shall contain:
+      
+      (a) Account details (name, number, branch)
+      (b) Transaction pattern summary
+      (c) Suspicious indicators identified
+      (d) Amount frozen
+      (e) Date of freeze
+      (f) Contact details of bank official
+
+5.1.3 Report format: [Annexure D - standardized format]
+```
+
+**Evidence Base:**
+- Kerala HC: [Paragraph 27.3 - inform authorities]
+- Current gap: [Cases where police never knew - ___% from your data]
+- International: [UK reporting requirements]
+
+---
+
+### 5.2 Law Enforcement Response Protocol
+
+**Provision:**
+
+```
+5.2.1 Law enforcement agency shall respond to bank's report within:
+      
+      (a) 30 days for initial acknowledgment and preliminary assessment
+      (b) 60 days for decision on whether investigation required
+      (c) 90 days for formal requisition (if investigation ongoing)
+
+5.2.2 If no response within 90 days:
+      
+      (a) Bank shall send reminder to all notified authorities
+      (b) Bank shall automatically de-freeze as per Section 4.2
+
+5.2.3 Law enforcement may request freeze continuation by:
+      
+      (a) Providing written requisition with case details
+      (b) Specifying investigation status and timeline
+      (c) Updating bank every 60 days on case progress
+```
+
+**Rationale:** 
+- Creates accountability for law enforcement (not just banks)
+- Addresses: [Your data - ___% cases where police didn't respond]
+- Kerala HC concern: [Paragraph mentioning lack of LE action]
+
+---
+
+### 5.3 Information Sharing
+
+**Provision:**
+
+```
+5.3.1 Bank and law enforcement shall establish:
+      
+      (a) Designated nodal officers for communication
+      (b) Secure information sharing channel
+      (c) Regular coordination meetings (quarterly)
+
+5.3.2 RBI shall maintain:
+      
+      (a) Centralized database of frozen accounts
+      (b) Statistics on freeze frequency and outcomes
+      (c) Annual report on effectiveness
+```
+
+---
+
+## SECTION 6: ACCOUNT HOLDER RIGHTS AND REMEDIES
+
+### 6.1 Rights
+
+**Provision:**
+
+```
+6.1.1 Every account holder whose account is frozen shall have right to:
+      
+      (a) Receive immediate notice with reasons
+      (b) Submit explanation with supporting documents
+      (c) Receive reasoned decision within prescribed timeline
+      (d) Access account statements and transaction history
+      (e) Appeal to Banking Ombudsman
+      (f) File writ petition under Article 226
+      (g) Claim compensation for wrongful freeze
+
+6.1.2 Bank shall not:
+      
+      (a) Freeze other accounts of same holder without independent grounds
+      (b) Deny account closure if holder wishes (subject to freeze resolution)
+      (c) Discriminate in future banking relationships based on past freeze
+```
+
+---
+
+### 6.2 Grievance Redressal
+
+**Provision:**
+
+```
+6.2.1 Account holder aggrieved by freeze may approach:
+      
+      Level 1: Bank's Internal Grievance Cell (decide within 15 days)
+      Level 2: Banking Ombudsman (as per existing framework)
+      Level 3: Court (writ jurisdiction)
+
+6.2.2 Internal Grievance Cell composition:
+      
+      (a) Senior official not involved in freeze decision
+      (b) Legal/compliance officer
+      (c) [External member for high-value cases]
+
+6.2.3 Burden of proof:
+      
+      (a) Bank must justify suspicion with evidence
+      (b) Account holder must explain source of funds
+      (c) Balance of probabilities standard
+```
+
+**Evidence Base:**
+- Cases showing: [No effective grievance mechanism, forcing litigation]
+- International: [UK appeals process]
+
+---
+
+### 6.3 Compensation for Wrongful Freeze
+
+**Provision:**
+
+```
+6.3.1 If freeze is ultimately determined to be wrongful:
+      
+      (a) By internal review: Bank shall restore account + written apology
+      (b) By Banking Ombudsman: Award up to Rs. [20 lakhs] compensation
+      (c) By Court: As per judicial discretion + costs
+
+6.3.2 "Wrongful freeze" means:
+      
+      (a) Freeze ordered without reasonable grounds
+      (b) Procedure not followed (no notice, no consideration)
+      (c) Continued beyond prescribed time limit without authority
+
+6.3.3 Compensation may include:
+      
+      (a) Interest on frozen amount at [___]% p.a.
+      (b) Consequential damages (if proven)
+      (c) Mental agony (in exceptional cases)
+
+6.3.4 Compensation shall be paid within 30 days of determination
+```
+
+**Evidence Base:**
+- Gap: [No compensation mechanism currently]
+- Your data: [Only ___% cases awarded costs]
+- Deterrent: [This will make banks more careful]
+- International: [UK compensation framework]
+
+---
+
+## SECTION 7: BANK ACCOUNTABILITY
+
+### 7.1 Liability for Wrongful Freeze
+
+**Provision:**
+
+```
+7.1.1 Bank shall be liable if:
+      
+      (a) Freeze ordered without following prescribed procedure
+      (b) Freeze continued beyond time limits without authority
+      (c) Explanation not considered or considered arbitrarily
+      (d) Malafide or negligent freezing
+
+7.1.2 Consequences:
+      
+      (a) Compensation to account holder (as per Section 6.3)
+      (b) RBI supervisory action
+      (c) [Penalty amount] per wrongful freeze
+      (d) Adverse notation in bank's compliance record
+```
+
+---
+
+### 7.2 Liability for Failure to Freeze
+
+**Provision:**
+
+```
+7.2.1 Bank shall be liable if:
+      
+      (a) Failed to freeze account despite clear indicators
+      (b) Facilitated money laundering/fraud by inaction
+      (c) Did not report suspicious transactions as required
+
+7.2.2 This creates BALANCED liability:
+      
+      ✓ Penalty for over-freezing (wrongful action)
+      ✓ Penalty for under-freezing (wrongful inaction)
+      ✓ Banks must exercise reasonable judgment
+
+7.2.3 "Reasonable judgment" defense:
+      
+      Bank not liable if acted in good faith based on available information
+```
+
+**Rationale:** 
+- Addresses bank's dilemma: [Freeze and risk suits, or don't freeze and facilitate crime]
+- Balanced approach: [Penalize both extremes]
+- International: [Similar frameworks in UK/Singapore]
+
+---
+
+### 7.3 Documentation and Audit
+
+**Provision:**
+
+```
+7.3.1 Bank shall maintain records of:
+      
+      (a) All freeze orders with rationale
+      (b) Notices sent to account holders
+      (c) Explanations received and decisions made
+      (d) Reports to law enforcement
+      (e) Outcomes (de-freeze date, compensation if any)
+
+7.3.2 Records shall be preserved for [7] years
+
+7.3.3 Internal audit shall review:
+      
+      (a) Compliance with this direction (quarterly)
+      (b) Pattern of freezing decisions
+      (c) Rate of wrongful freezes
+      (d) Quality of assessment and decision-making
+
+7.3.4 RBI inspection shall verify compliance
+```
+
+---
+
+## SECTION 8: RBI OVERSIGHT AND MONITORING
+
+### 8.1 Supervisory Role
+
+**Provision:**
+
+```
+8.1.1 RBI shall:
+      
+      (a) Collect data on freeze frequency across banks (monthly)
+      (b) Analyze patterns and outcomes (quarterly)
+      (c) Issue guidance based on trends (annually)
+      (d) Conduct inspections for compliance
+
+8.1.2 Banks shall report to RBI:
+      
+      (a) Number of accounts frozen (monthly)
+      (b) Reasons for freezing (categorized)
+      (c) Duration of freezes (average and outliers)
+      (d) Outcomes (de-frozen, continued, wrongful)
+      (e) Compensation paid
+
+8.1.3 RBI shall publish:
+      
+      (a) Annual report on suspicious account management
+      (b) Statistics on freezing (anonymized)
+      (c) Best practices
+      (d) Updated guidelines based on experience
+```
+
+**Rationale:**
+- Kerala HC directed: [RBI must frame guidelines]
+- Ongoing monitoring: [Ensures framework works in practice]
+- Data-driven improvement: [Not one-time direction but living framework]
+
+---
+
+### 8.2 Review and Amendment
+
+**Provision:**
+
+```
+8.2.1 This Master Direction shall be reviewed:
+      
+      (a) Annually for first 3 years
+      (b) Every 2 years thereafter
+      (c) Immediately if significant issues arise
+
+8.2.2 Stakeholder consultation:
+      
+      (a) Banks associations
+      (b) Law enforcement representatives
+      (c) Consumer advocacy groups
+      (d) Legal experts
+
+8.2.3 RBI may amend based on:
+      
+      (a) Implementation experience
+      (b) Technological developments
+      (c) Judicial pronouncements
+      (d) International best practices evolution
+```
+
+---
+
+## SECTION 9: TRANSITION AND IMPLEMENTATION
+
+### 9.1 Effective Date and Transition
+
+**Provision:**
+
+```
+9.1.1 This Direction comes into force on [Date - 6 months from issuance]
+
+9.1.2 During transition period (6 months):
+      
+      (a) Banks shall update systems and procedures
+      (b) RBI shall conduct training programs
+      (c) Banks shall review existing frozen accounts
+
+9.1.3 Existing frozen accounts (as on effective date):
+      
+      (a) If frozen > 90 days without LE requisition: De-freeze within 30 days
+      (b) If frozen < 90 days: Apply new procedure going forward
+      (c) Account holders shall be notified of new framework
+```
+
+---
+
+### 9.2 Training and Capacity Building
+
+**Provision:**
+
+```
+9.2.1 Banks shall:
+      
+      (a) Train all relevant staff within 3 months
+      (b) Designate and train Authorized Officials
+      (c) Establish internal systems for compliance
+
+9.2.2 RBI shall:
+      
+      (a) Provide model training materials
+      (b) Conduct workshops for bank officials
+      (c) Issue FAQs and guidance notes
+```
+
+---
+
+## ANNEXURES
+
+### Annexure A: Pre-Freeze Assessment Form
+[Create template]
+
+### Annexure B: Notice to Account Holder Template
+[Create template]
+
+### Annexure C: Decision Documentation Format
+[Create template]
+
+### Annexure D: Law Enforcement Notification Format
+[Create template]
+
+---
+
+## Rationale Document
+
+### For Each Section, Complete:
+
+**Section [X]: [Name]**
+
+**Gap this addresses:** [From Week 3 analysis]
+
+**Evidence from cases:** [Cite 2-3 specific cases]
+
+**International model used:** [UK/Singapore provision]
+
+**Kerala HC position:** [If applicable]
+
+**How this provision solves the problem:** [Explain]
+
+**Expected impact:** [What will change?]
+
+---
+
+## Comparative Analysis Table
+
+| Issue | Current RBI Position | Kerala HC Interim Guideline | Proposed Framework | Advantage |
+|-------|---------------------|----------------------------|-------------------|-----------|
+| Authority | Vague "appropriate action" | Implicit authorization | Explicit with conditions | [Explain] |
+| Notice | Only for KYC issues | Same day via SMS/post | Same + detailed content | [Explain] |
+| Time limit | None | 3 months | 90 days (with exceptions) | [Explain] |
+| Accountability | None | None | Compensation + penalties | [Explain] |
+| Coordination | Report to FIU | Report to cyber police | Structured protocol with timelines | [Explain] |
+
+---
+
+## Implementation Challenges
+
+**Identify potential challenges and solutions:**
+
+**Challenge 1:** Banks may resist due to increased compliance burden
+**Solution:** [Phase implementation, provide support]
+
+**Challenge 2:** Law enforcement may lack capacity to respond in 30 days
+**Solution:** [Coordination mechanism, dedicated cyber cells]
+
+**Challenge 3:** [Add based on your analysis]
+**Solution:** [Your suggestion]
+
+---
+
+## Deliverables Checklist
+
+By end of Week 4, you should have:
+
+- [ ] Complete draft Master Direction (all 9 sections)
+- [ ] Rationale document linking each provision to evidence
+- [ ] Comparison table (Current vs. Kerala HC vs. Proposed)
+- [ ] Implementation challenge analysis
+- [ ] All annexures (templates)
+
+**Save as:**
+- `work/week4_proposed_framework.md` (this file completed)
+- `docs/proposed_rbi_master_direction.pdf` (formatted version)
+- `analysis/framework_rationale.md` (detailed justification)
+- `analysis/comparison_tables.xlsx` (all comparisons)
+
+---
+
+**Status:** 
+- [ ] In Progress
+- [ ] Completed
+- [ ] Reviewed
+
+**Completion Date:** ___________
+
+**Hours Logged:** ___________
