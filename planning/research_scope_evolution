@@ -1,0 +1,233 @@
+# Research Scope Evolution
+
+## Documentation Authorship
+
+**Important Note:** The contents in this file were **drafted by Anthropic's Claude AI** based on collaborative conversations about my research project.
+
+**The Language Used:**
+The written articulation, phrasing, sentence structure, and prose style in these planning documents is **Claude's language, not my original writing**. These documents represent AI-generated text based on our iterative discussions.
+
+**Document Purpose:** Track major methodological decisions and scope refinements as research progresses.
+
+**Last Updated:** December 09, 2024
+
+---
+
+## Initial Plan (December 7-8, 2024)
+
+### Original Scope
+- **Geographic:** Initially unclear - possibly Kerala-focused
+- **Case Volume:** 40-50 cases for comprehensive analysis
+- **Data Source:** India Kanoon (free, public database)
+- **Collection Method:** Mix of manual browsing and potential web scraping
+- **Analysis Approach:** Extensive case law database with 43+ variables
+
+### Original Time Estimate
+- Week 1: 12 hours (Normative framework)
+- Week 2: 18 hours (Case collection - India Kanoon)
+- Week 3: 18 hours (Deep analysis of 40-50 cases)
+- Week 4: 18 hours (Framework design)
+- Week 5: 18 hours (Documentation)
+- **Total:** 84 hours
+
+---
+
+## First Refinement (December 9, 2024 - Morning)
+
+### Issue Identified
+Uncertainty about research scope:
+- Should this be Kerala-specific or All-India study?
+- How many cases are actually necessary?
+- Risk of being overwhelmed by data volume
+
+### Preliminary Research Conducted
+Web search revealed:
+- **Kerala HC is unique** - Only HC to issue comprehensive framework
+- **Multiple HCs addressing issue** - Delhi, Madras, Bombay, Allahabad
+- **Delhi HC took different approach** - Directed MHA (not RBI)
+- **National problem confirmed** - Not just Kerala
+
+### Decision Point
+Three options considered:
+1. **Kerala-focused** (narrow but deep)
+2. **Multi-HC comparative** (balanced - 4 HCs, 10-12 cases)
+3. **Comprehensive All-India** (exhaustive - all HCs, 40-50 cases)
+
+### Preliminary Decision
+Leaning toward **Option 2: Multi-HC Comparative**
+- Kerala HC (anchor/framework creator): 4 cases
+- Delhi HC (alternative approach): 3 cases
+- Madras HC (proportionality focus): 3 cases
+- Allahabad/Others (contrasting views): 2 cases
+- **Total:** 12 cases (not 40-50)
+
+### Rationale
+- Shows national scope without overwhelming volume
+- Kerala HC's uniqueness becomes the story
+- Comparative analysis more valuable than exhaustive catalog
+- More manageable timeline (65-75 hours vs. 84 hours)
+
+---
+
+## Second Refinement (December 9, 2024 - Afternoon)
+
+### New Information
+- **Manupatra access confirmed** - Have institutional access to professional legal database
+- India Kanoon blocks automated scraping (403 error)
+
+### Critical Realization
+With Manupatra access, the methodology should fundamentally change:
+
+**From:** Manual browsing + scraping attempts + limited filtering
+**To:** Systematic advanced search + structured exports + intelligent filtering
+
+### Advantages of Manupatra Approach
+1. **Professional credibility** - Using standard legal research database
+2. **Structured data** - Clean exports with reliable metadata
+3. **Better filtering** - Headnotes enable screening without full reads
+4. **Advanced search** - Boolean operators, field-specific queries
+5. **No legal gray areas** - Legitimate database access vs. web scraping
+6. **Citation networks** - Can track which cases cite Kerala HC
+
+### Revised Collection Strategy
+
+**Phase 1: Systematic Search (2 hours)**
+Execute 5 strategic searches in Manupatra:
+1. Core issue: "account freeze" + cyber crime
+2. Regulatory gap focus: RBI guidelines + account freeze
+3. Statutory provisions: Banking Regulation Act + PMLA
+4. Kerala HC framework: Specific to Kerala's guidelines
+5. Comparative: Other major HCs
+
+**Phase 2: Automated Organization (2 hours)**
+- Export all search results to CSV
+- Python script combines exports
+- Automatic deduplication
+- Auto-prioritization based on headnotes
+- Expected collection: 60-100 cases initially
+
+**Phase 3: Intelligent Filtering (2 hours)**
+- Python-assisted stratified sampling
+- Multi-HC proportional distribution
+- Priority-weighted selection
+- Final sample: 15 cases for deep reading
+
+**Phase 4: Deep Analysis (12-15 hours)**
+- Read selected 15 cases thoroughly
+- Create detailed case summaries
+- Extract evidence for gap dimensions
+
+### Tools Created
+New Python scripts:
+1. `manupatra_organizer.py` - Combines exports, removes duplicates
+2. `manupatra_filter.py` - Intelligent sampling and filtering
+
+---
+
+## Final Refined Scope (December 9, 2024 - Evening)
+
+### Research Question (Sharpened)
+**Original (vague):**
+> "What regulatory gaps exist in India's framework for bank account freezing in suspected cyber crime cases, and how can they be addressed?"
+
+**Revised (precise):**
+> "While multiple High Courts have addressed account freezing in cyber crime cases, Kerala HC's 2024 framework stands unique in directing RBI to create comprehensive SOP. This study analyzes Kerala HC's approach against other High Courts' responses and proposes an evidence-based RBI Master Direction addressing identified regulatory voids."
+
+### Geographic Scope: Multi-HC Comparative
+**Primary focus:** Kerala High Court (framework creator)
+**Comparative jurisdictions:** Delhi, Madras, Bombay, Allahabad
+**Rationale:** Strategic sampling showing national problem, Kerala solution
+
+### Case Volume: Quality over Quantity
+**Initial collection:** 60-100 cases (via Manupatra systematic search)
+**Filtered sample:** 15 cases for deep analysis
+**Distribution:** 
+- Kerala HC: 4-5 cases
+- Delhi HC: 3 cases
+- Madras HC: 3 cases
+- Bombay HC: 2-3 cases
+- Others: 2 cases
+
+### Data Source: Manupatra (Professional Database)
+**Primary:** Manupatra advanced search + structured exports
+**Supplementary:** India Kanoon for verification/cross-reference
+**Rationale:** Professional credibility, structured data, better filtering
+
+### Collection Method: Assisted Manual
+**Not:** Pure automation (web scraping)
+**Not:** Pure manual (inefficient)
+**But:** Systematic search + Python-assisted filtering + human judgment
+**Rationale:** Combines efficiency with authenticity
+
+### Analysis Approach: Strategic Depth
+**From:** Extensive database (43 variables, 40-50 cases)
+**To:** Focused analysis (15 cases, deep reading, gap mapping)
+**Rationale:** Depth and quality over breadth
+
+---
+
+## Revised Timeline
+
+| Phase | Activity | Hours | Change from Original |
+|-------|----------|-------|---------------------|
+| Week 1 | Normative framework analysis | 12 | (unchanged) |
+| Week 2 | Manupatra systematic collection + filtering | 8-10 | -8 hours (more efficient) |
+| Week 3 | Deep analysis of 15 cases + gap mapping | 15 | -3 hours (fewer cases) |
+| Week 4 | Framework design | 15 | -3 hours (streamlined) |
+| Week 5 | Documentation + portfolio | 15 | -3 hours (clearer focus) |
+| **Total** | | **65-67 hours** | **-17 hours saved** |
+
+### Time Savings Rationale
+- Manupatra exports eliminate manual data entry
+- Automated organization reduces repetitive work
+- Smaller case sample (15 vs 40-50) = less reading time
+- Time saved can be reinvested in:
+  - Deeper analysis quality
+  - Better framework design
+  - More polished documentation
+  - Portfolio presentation
+
+---
+
+## Outstanding Decisions
+
+### To Be Determined:
+- [ ] Exact case distribution across HCs (finalize after seeing Manupatra results)
+- [ ] Whether to include Supreme Court cases (if any exist on point)
+- [ ] International comparison scope (UK only? UK + Singapore? Others?)
+- [ ] Framework detail level (comprehensive vs. principles-based)
+
+### Next Immediate Steps:
+1. Execute Manupatra searches (5 strategic queries)
+2. Export and organize results
+3. Review collection summary
+4. Make final sampling decisions based on actual data
+5. Begin deep reading of selected cases
+---
+
+## Lessons Learned (So Far)
+
+1. **Start broad, then narrow** - Initial uncertainty is normal; refine as you learn
+2. **Tools matter** - Access to Manupatra changed everything
+3. **Perfect is enemy of good** - 15 quality cases > 50 surface-level cases
+4. **Document evolution** - Scope changes aren't failures; they're research
+5. **Trust the process** - Anxiety about "right" approach decreases with structure
+
+---
+
+## Version History
+
+| Date | Version | Major Change |
+|------|---------|--------------|
+| 2024-12-07 | 0.1 | Initial project conception |
+| 2024-12-08 | 0.2 | Structured weekly templates created |
+| 2024-12-09 AM | 0.3 | Recognized need for scope clarification |
+| 2024-12-09 PM | 1.0 | Manupatra access confirmed; methodology redesigned |
+
+---
+
+## Document Status
+- ✅ Scope finalized: Multi-HC comparative (15 cases)
+- ✅ Tools finalized: Manupatra + Python + NotebookLM
+- ✅ Timeline revised: 65-67 hours
+
